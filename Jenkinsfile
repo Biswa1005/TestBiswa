@@ -10,7 +10,7 @@ node {
       // **       in the global configuration.           
       mvnHome = tool 'Maven'
       javahome = tool 'Default'
-      env.JAVA_HOME = "C:\\Program Files\\Java\\jdk1.8.0_171"
+      env.JAVA_HOME = "C:\\Program Files\\Java\\jdk1.8.0_191"
    }
   
    stage('Build') {
